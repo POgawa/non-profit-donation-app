@@ -1,0 +1,7 @@
+<h1>Charges index</h1>
+
+<ul>
+  <% @charges.each do |charge| %>
+    <li><%= link_to charge.name, charges_path(charge.id) %></li>
+  <% end %>
+</ul>
