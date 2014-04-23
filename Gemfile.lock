@@ -8,9 +8,17 @@ GIT
       cocaine (~> 0.5.3)
       mime-types
 
+GIT
+  remote: https://github.com/stripe/stripe-ruby
+  revision: 48f76057f425ab5c3bb147f3d71c3d36d951159f
+  specs:
+    stripe (1.11.0)
+      json (~> 1.8.1)
+      mime-types (~> 1.25)
+      rest-client (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
-  remote: https://code.stripe.com/
   specs:
     actionmailer (4.0.4)
       actionpack (= 4.0.4)
@@ -231,10 +239,6 @@ GEM
     sqlite3 (1.3.9)
     sqlite3-ruby (1.3.3)
       sqlite3 (>= 1.3.3)
-    stripe (1.11.0)
-      json (~> 1.8.1)
-      mime-types (~> 1.25)
-      rest-client (~> 1.4)
     textacular (3.2.0)
       activerecord (>= 3.0, < 4.2)
     therubyracer (0.12.1)
@@ -303,7 +307,7 @@ DEPENDENCIES
   sass-rails
   shoulda-callback-matchers
   shoulda-matchers
-  stripe
+  stripe!
   textacular
   therubyracer
   turbolinks

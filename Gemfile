@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-source 'https://code.stripe.com'
 
 gem 'rails'
 gem 'pg'
@@ -20,7 +19,7 @@ gem 'textacular'
 gem 'therubyracer'
 gem 'foundation-rails'
 gem 'rest_client'
-gem 'stripe'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 group :development do
   gem 'better_errors'
